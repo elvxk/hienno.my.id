@@ -7,16 +7,16 @@ const HCta = () => {
     >
       {/* Portfolio */}
       <a
-        href="#portfolio"
+        href="#service"
         className="flex items-center gap-2 rounded-full bg-primary px-7 py-3 text-base font-semibold text-white transition hover:scale-105"
       >
-        Portfolio
+        Service
         <span className="text-xl leading-none">↗</span>
       </a>
 
       {/* Detail */}
       <a
-        href="#detail"
+        href="#about"
         className="rounded-full px-7 py-3 text-base text-white font-semibold" >
         Detail
       </a>
