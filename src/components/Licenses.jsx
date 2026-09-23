@@ -52,71 +52,87 @@ const Licenses = () => {
         </h2>
 
         {/* Email */}
-        <form
+        <a
+          href="mailto:ennonirmala18@gmail.com"
           className="
-            mx-auto
-            mt-6
-            flex
-            max-w-xl
-            items-center
-            rounded-full
-            border
-            border-slate-200
-            bg-white
-            p-1
-            shadow-sm
-          "
+    group
+    mx-auto
+    mt-6
+    flex
+    w-fit
+    items-center
+    gap-3
+    rounded-full
+    bg-primary
+    py-1.5
+    pl-2
+    pr-6
+    text-sm
+    font-medium
+    text-white
+    shadow-lg
+    shadow-primary/20
+    transition-all
+    duration-300
+    hover:-translate-y-1
+    hover:shadow-xl
+    hover:shadow-primary/30
+  "
         >
-          <div
+          {/* Icon */}
+          <span
             className="
-              ml-1
-              flex
-              h-10
-              w-10
-              shrink-0
-              items-center
-              justify-center
-              rounded-full
-              bg-primary-bg
-              text-primary
-            "
+      flex
+      h-11
+      w-11
+      items-center
+      justify-center
+      rounded-full
+      bg-white
+      text-primary
+      transition-transform
+      duration-300
+      group-hover:rotate-12
+    "
           >
-            ✉
-          </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.8"
+              className="h-5 w-5"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3 7.5 10.94 13a1.8 1.8 0 0 0 2.12 0L21 7.5"
+              />
+              <rect
+                x="3"
+                y="5"
+                width="18"
+                height="14"
+                rx="2"
+              />
+            </svg>
+          </span>
 
-          <input
-            type="email"
-            placeholder="Enter Email Address"
-            className="
-              min-w-0
-              flex-1
-              bg-transparent
-              px-4
-              text-sm
-              text-text
-              outline-none
-              placeholder:text-text
-            "
-          />
+          <span>Let's Talk</span>
 
-          <button
-            type="submit"
+          {/* Arrow */}
+          <span
             className="
-              rounded-full
-              bg-primary
-              px-7
-              py-3
-              text-sm
-              font-medium
-              text-white
-              transition-transform
-              duration-300
-              hover:scale-105
-            "
+      text-lg
+      leading-none
+      transition-transform
+      duration-300
+      group-hover:translate-x-1
+    "
           >
-            Send
-          </button>
-        </form>
+            ↗
+          </span>
+        </a>
       </div>
 
       {/* Marquee */}

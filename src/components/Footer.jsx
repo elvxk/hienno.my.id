@@ -1,3 +1,5 @@
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -44,7 +46,7 @@ const Footer = () => {
           </h2>
 
           <a
-            href="https://www.linkedin.com/"
+            href="https://linkedin.com/in/enno-nirmalasyah-0732321b9"
             target="_blank"
             rel="noreferrer"
             className="
@@ -108,44 +110,32 @@ const Footer = () => {
             {/* Social */}
             <div className="mt-6 flex items-center gap-3">
               <a
-                href="#"
+                href="https://linkedin.com/in/enno-nirmalasyah-0732321b9"
+                target="_blank"
+                aria-label="LinkedIn"
+                className="text-sm transition-opacity hover:opacity-60"
+              >
+                <FaLinkedin />
+              </a>
+
+              <a
+                href="https://www.instagram.com/enonirmalasyh/"
+                target="_blank"
+                aria-label="instagram"
+                className="text-sm transition-opacity hover:opacity-60"
+              >
+                <FaInstagram />
+              </a>
+
+              <a
+                href="https://www.facebook.com/enno.nirmala"
+                target="_blank"
                 aria-label="Facebook"
                 className="text-sm transition-opacity hover:opacity-60"
               >
-                ●
+                <FaFacebook />
               </a>
 
-              <a
-                href="#"
-                aria-label="YouTube"
-                className="text-sm transition-opacity hover:opacity-60"
-              >
-                ●
-              </a>
-
-              <a
-                href="#"
-                aria-label="WhatsApp"
-                className="text-sm transition-opacity hover:opacity-60"
-              >
-                ●
-              </a>
-
-              <a
-                href="#"
-                aria-label="Instagram"
-                className="text-sm transition-opacity hover:opacity-60"
-              >
-                ●
-              </a>
-
-              <a
-                href="#"
-                aria-label="Twitter"
-                className="text-sm transition-opacity hover:opacity-60"
-              >
-                ●
-              </a>
             </div>
           </div>
 
@@ -167,7 +157,7 @@ const Footer = () => {
               </a>
 
               <a href="#about" className="transition-opacity hover:opacity-60">
-                About Us
+                About
               </a>
 
               <a href="#service" className="transition-opacity hover:opacity-60">
@@ -201,7 +191,7 @@ const Footer = () => {
                 href="mailto:ennonirmala18@gmail.com"
                 className="transition-opacity hover:opacity-60"
               >
-                ennonnirmala18@gmail.com
+                ennonirmala18@gmail.com
               </a>
 
               <a
